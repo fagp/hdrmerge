@@ -1,0 +1,18 @@
+{
+  "nmsepad":
+    {
+      "criterion":"NMSE",
+      "criterionparam":"{'input':outputs,'target':sample['gt']}",
+      "module":"loss.lossfunc"
+    },
+  "mse":
+  {
+    "criterion":"MSELoss",
+    "criterionparam":"{'input':outputs,'target':sample['gt']}"
+  },
+  "l1":
+  {
+    "criterion":"L1Loss",
+    "criterionparam":"{'input':outputs,'target':sample['gt']}"
+  }
+}

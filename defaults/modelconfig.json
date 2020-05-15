@@ -1,0 +1,20 @@
+{
+  "unetmerge":
+  {
+    "arch":"unetpad",
+    "module": "models.arch.unet",
+    "n_classes":"1",
+    "is_deconv":"False",
+    "in_channels":"3",
+    "is_batchnorm":"False"
+  },
+  "unetfinal":
+  {
+    "arch":"unetpad",
+    "module": "models.arch.unet",
+    "n_classes":"3",
+    "is_deconv":"False",
+    "in_channels":"3",
+    "is_batchnorm":"False"
+  }
+}

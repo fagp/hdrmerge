@@ -1,0 +1,26 @@
+{
+  "hdrmerge":
+  {
+    "path_raw": "/media/fillo/_home/work/motorola/hdrold/20171106_subset/bursts",
+    "path_result": "/media/fillo/_home/work/motorola/hdrold/20171106_subset/results_20171023",
+    "ext_raw": "dng",
+    "ext_res": "merged.dng",
+    "transform_param": "RandomCrop(400),ToTensor()",
+    "num_burst0":"121",
+    "num_burst1":"153",
+    "size_burst":"3",
+    "module":"dataloaders.hdrdataset"
+  },
+  "hdrfinal":
+  {
+    "path_raw": "/media/fillo/_home/work/motorola/hdrold/20171106_subset/bursts",
+    "path_result": "/media/fillo/_home/work/motorola/hdrold/20171106_subset/results_20171023",
+    "ext_raw": "dng",
+    "ext_res": "final.jpg",
+    "transform_param": "RandomCrop(400),ToTensor()",
+    "num_burst0":"121",
+    "num_burst1":"153",
+    "size_burst":"3",
+    "module":"dataloaders.hdrdataset"
+  }
+}
